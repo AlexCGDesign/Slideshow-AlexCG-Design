@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="1 (1).png" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="1 (2).png" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="1 (3).png" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
